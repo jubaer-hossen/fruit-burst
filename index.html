@@ -324,7 +324,10 @@
               />
             </div>
             <div class="card-actions">
-              <button class="btn btn-link text-orange-500 no-underline">
+              <button
+                class="btn btn-link text-orange-500 no-underline"
+                onclick="my_modal_2.showModal()"
+              >
                 Details
               </button>
             </div>
@@ -394,7 +397,10 @@
               />
             </div>
             <div class="card-actions">
-              <button class="btn btn-link text-orange-500 no-underline">
+              <button
+                class="btn btn-link text-orange-500 no-underline"
+                onclick="my_modal_2.showModal()"
+              >
                 Details
               </button>
             </div>
@@ -464,7 +470,10 @@
               />
             </div>
             <div class="card-actions">
-              <button class="btn btn-link text-orange-500 no-underline">
+              <button
+                class="btn btn-link text-orange-500 no-underline"
+                onclick="my_modal_2.showModal()"
+              >
                 Details
               </button>
             </div>
@@ -534,13 +543,98 @@
               />
             </div>
             <div class="card-actions">
-              <button class="btn btn-link text-orange-500 no-underline">
+              <button
+                class="btn btn-link text-orange-500 no-underline"
+                onclick="my_modal_2.showModal()"
+              >
                 Details
               </button>
             </div>
           </div>
         </div>
         <!-- PopUp card -->
+        <!-- Open the modal using ID.showModal() method -->
+        <!-- <button class="btn" onclick="my_modal_2.showModal()">open modal</button> -->
+        <dialog id="my_modal_2" class="modal">
+          <div class="modal-box">
+            <div class="w-auto">
+              <img
+                src="/images/fruit9.png"
+                alt="Shoes"
+                class="rounded-xl mx-auto"
+              />
+              <div class="items-center text-center">
+                <h1 class="text-2xl font-bold">Banana</h1>
+                <p>
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+                <!-- rating -->
+                <div class="rating rating-md rating-half">
+                  <input type="radio" name="rating-10" class="rating-hidden" />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-orange-400 mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-orange-400 mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-orange-400 mask mask-star-2 mask-half-1"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-orange-400 mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-orange-400 mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-orange-400 mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-orange-400 mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-orange-400 mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-orange-400 mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-orange-400 mask mask-star-2 mask-half-2"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="modal-action justify-center">
+              <form method="dialog">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn btn-outline">Close</button>
+              </form>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </dialog>
       </section>
 
       <!-- Meet the team section -->
